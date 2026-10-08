@@ -1,0 +1,30 @@
+.welcome {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+  text-align: center;
+}
+
+.welcome-label {
+  color: var(--gold);
+  font-size: 12px;
+  letter-spacing: 3px;
+}
+
+.welcome h1 {
+  margin: 20px 0;
+  font-size: clamp(42px, 9vw, 100px);
+  letter-spacing: -2px;
+}
+
+.welcome h1 span {
+  color: var(--gold);
+}
+
+.welcome > p:last-child {
+  color: var(--muted);
+  font-size: 18px;
+}
