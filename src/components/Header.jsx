@@ -19,7 +19,7 @@ function Header() {
 >
   <img
     className="brand-logo"
-    src="/logo-rich.png"
+   src={`${import.meta.env.BASE_URL}logo-rich.png`}
     alt="RICH MEDIA"
     width="1774"
     height="887"
